@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0; /* 设置背景色 */
+    color: #333; /* 设置字体颜色 */
+    text-align: center; /* 让文字居中显示 */
 }
 
-/* 设置页面的最大宽度，并居中显示 */
+/* 页面内容的最大宽度 */
 .container {
     width: 80%;
     margin: 0 auto;
@@ -22,7 +24,6 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
-    text-align: center;
 }
 
 nav ul li {
@@ -38,7 +39,6 @@ nav ul li a {
 
 /* 首页部分 */
 #home {
-    text-align: center;
     padding: 50px 0;
 }
 
@@ -57,7 +57,6 @@ nav ul li a {
 #products {
     background-color: #fff;
     padding: 50px 0;
-    text-align: center;
 }
 
 #products h2 {
